@@ -1,14 +1,20 @@
 body {
 	background-color: #eee;
-	color: green;
 }
 
 div {
+	width: 32%;
 	text-align: center;
-	background-color: #dedede;
+	float: left;
+	border: 1px dashed black;
+	margin: 10px 1px;
+}
+
+div:hover {
+	border: 1px solid green;
 }
 
 img {
-	width: 500px;
-	height: 300px;
+	width: 300px;
+	height: 150px;
 }
